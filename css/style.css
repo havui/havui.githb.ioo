@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
   font-size: 15px;
   background-color: #cccccc;
@@ -33,7 +33,7 @@ a:hover {
 }
 
 header {
-  width: 960px;
+  width: 1700px;
   height: 170px;
   margin: 0 auto;
   display: flex;
@@ -70,7 +70,7 @@ header {
 footer {
   text-align: center;
   color: #ffffff;
-  padding: 20px 0;
+  padding: 200px 0 0 0;
 }
 
 footer small {
