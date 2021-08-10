@@ -1,9 +1,10 @@
 body {
-  margin: 0px ;
+  margin: 0px;
   padding: 0px;
   font-size: 15px;
   background-color: #cccccc;
   line-height: 2;
+  align-items: center;
 }
 
 p,h1,h2,h3,h4,h5 {
@@ -35,7 +36,7 @@ a:hover {
 header {
   width: 1700px;
   height: 170px;
-  margin: 0 auto;
+  margin: 0 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,6 +45,8 @@ header {
 .ll-nav {
   display: flex;
   justify-content: space-between;
+  margin: 0px 10;
+  width: 50%;
 }
 
 .ll-nav li {
@@ -63,8 +66,8 @@ header {
 }
 
 .main {
-  width: 960px;
-  margin: 0 auto;
+  width: 1700px 250px;
+  margin: 0px 0px 0px 50px;
 }
 
 footer {
@@ -121,3 +124,4 @@ footer small {
   background-attachment: fixed;
   background-size: cover;
 }
+
